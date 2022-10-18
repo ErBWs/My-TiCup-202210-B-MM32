@@ -1,0 +1,364 @@
+[2022-05-20 11:08:53]	compilation failed at : "c:\Car\mm32f3270\3rdLib\fatfs\documents\res\app1.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <6d8c0f91f6d94a3cb9e4240f591355c3>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x01808] in <6d8c0f91f6d94a3cb9e4240f591355c3>:0 
+---
+./3rdLib/fatfs/documents/res/app1.c:6:1: error: unknown type name 'FRESULT'
+FRESULT open_append (
+^
+./3rdLib/fatfs/documents/res/app1.c:7:5: error: unknown type name 'FIL'
+    FIL* fp,            /* [OUT] File object to create */
+    ^
+./3rdLib/fatfs/documents/res/app1.c:11:5: error: use of undeclared identifier 'FRESULT'
+    FRESULT fr;
+    ^
+./3rdLib/fatfs/documents/res/app1.c:14:5: error: use of undeclared identifier 'fr'
+    fr = f_open(fp, path, FA_WRITE | FA_OPEN_ALWAYS);
+    ^
+./3rdLib/fatfs/documents/res/app1.c:14:10: warning: implicit declaration of function 'f_open' is invalid in C99 [-Wimplicit-function-declaration]
+    fr = f_open(fp, path, FA_WRITE | FA_OPEN_ALWAYS);
+         ^
+./3rdLib/fatfs/documents/res/app1.c:14:27: error: use of undeclared identifier 'FA_WRITE'
+    fr = f_open(fp, path, FA_WRITE | FA_OPEN_ALWAYS);
+                          ^
+./3rdLib/fatfs/documents/res/app1.c:14:38: error: use of undeclared identifier 'FA_OPEN_ALWAYS'
+    fr = f_open(fp, path, FA_WRITE | FA_OPEN_ALWAYS);
+                                     ^
+./3rdLib/fatfs/documents/res/app1.c:15:9: error: use of undeclared identifier 'fr'
+    if (fr == FR_OK) {
+        ^
+./3rdLib/fatfs/documents/res/app1.c:15:15: error: use of undeclared identifier 'FR_OK'
+    if (fr == FR_OK) {
+              ^
+./3rdLib/fatfs/documents/res/app1.c:17:9: error: use of undeclared identifier 'fr'
+        fr = f_lseek(fp, f_size(fp));
+        ^
+./3rdLib/fatfs/documents/res/app1.c:17:14: warning: implicit declaration of function 'f_lseek' is invalid in C99 [-Wimplicit-function-declaration]
+        fr = f_lseek(fp, f_size(fp));
+             ^
+./3rdLib/fatfs/documents/res/app1.c:17:26: warning: implicit declaration of function 'f_size' is invalid in C99 [-Wimplicit-function-declaration]
+        fr = f_lseek(fp, f_size(fp));
+                         ^
+./3rdLib/fatfs/documents/res/app1.c:18:13: error: use of undeclared identifier 'fr'
+        if (fr != FR_OK)
+            ^
+./3rdLib/fatfs/documents/res/app1.c:18:19: error: use of undeclared identifier 'FR_OK'
+        if (fr != FR_OK)
+                  ^
+./3rdLib/fatfs/documents/res/app1.c:19:13: warning: implicit declaration of function 'f_close' is invalid in C99 [-Wimplicit-function-declaration]
+            f_close(fp);
+            ^
+./3rdLib/fatfs/documents/res/app1.c:21:12: error: use of undeclared identifier 'fr'
+    return fr;
+           ^
+./3rdLib/fatfs/documents/res/app1.c:27:5: error: use of undeclared identifier 'FRESULT'
+    FRESULT fr;
+    ^
+./3rdLib/fatfs/documents/res/app1.c:28:5: error: use of undeclared identifier 'FATFS'
+    FATFS fs;
+    ^
+./3rdLib/fatfs/documents/res/app1.c:29:5: error: use of undeclared identifier 'FIL'
+    FIL fil;
+    ^
+./3rdLib/fatfs/documents/res/app1.c:32:5: warning: implicit declaration of function 'f_mount' is invalid in C99 [-Wimplicit-function-declaration]
+    f_mount(&fs, "", 0);
+    ^
+./3rdLib/fatfs/documents/res/app1.c:32:14: error: use of undeclared identifier 'fs'
+    f_mount(&fs, "", 0);
+             ^
+./3rdLib/fatfs/documents/res/app1.c:33:5: error: use of undeclared identifier 'fr'
+    fr = open_append(&fil, "logfile.txt");
+    ^
+./3rdLib/fatfs/documents/res/app1.c:33:23: error: use of undeclared identifier 'fil'
+    fr = open_append(&fil, "logfile.txt");
+                      ^
+./3rdLib/fatfs/documents/res/app1.c:34:9: error: use of undeclared identifier 'fr'
+    if (fr != FR_OK) return 1;
+        ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+5 warnings and 20 errors generated.
+
+[2022-05-20 11:18:51]	[done]
+	build successfully !
+
+[2022-05-20 11:25:44]	[done]
+	build successfully !
+
+[2022-05-20 11:27:59]	[done]
+	build successfully !
+
+[2022-05-20 11:30:55]	[done]
+	build successfully !
+
+[2022-05-20 11:32:50]	[done]
+	build successfully !
+
+[2022-05-20 11:34:23]	[done]
+	build successfully !
+
+[2022-05-20 11:37:27]	[done]
+	build successfully !
+
+[2022-05-20 11:41:27]	[done]
+	build successfully !
+
+[2022-05-20 11:41:49]	[done]
+	build successfully !
+
+[2022-05-20 11:44:28]	[done]
+	build successfully !
+
+[2022-05-20 11:58:21]	[done]
+	build successfully !
+
+[2022-05-20 11:59:57]	[done]
+	build successfully !
+
+[2022-05-20 12:00:18]	[done]
+	build successfully !
+
+[2022-05-20 12:01:49]	[done]
+	build successfully !
+
+[2022-05-20 12:03:10]	[done]
+	build successfully !
+
+[2022-05-20 12:03:33]	[done]
+	build successfully !
+
+[2022-05-21 21:54:16]	[done]
+	build successfully !
+
+[2022-05-21 21:55:32]	compilation failed at : "c:\Car\mm32f3270\MyCode\mathematics.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0178e] in <6d8c0f91f6d94a3cb9e4240f591355c3>:0 
+---
+In file included from ./MyCode/mathematics.c:7:
+./MyCode/mathematics.h:15:19: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[]);
+                  ^~~~~~
+                  uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+In file included from ./MyCode/mathematics.c:7:
+./MyCode/mathematics.h:15:34: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[]);
+                                 ^~~~~~
+                                 uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+In file included from ./MyCode/mathematics.c:7:
+./MyCode/mathematics.h:15:48: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[]);
+                                               ^~~~~~
+                                               uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+In file included from ./MyCode/mathematics.c:7:
+./MyCode/mathematics.h:15:63: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[]);
+                                                              ^~~~~~
+                                                              uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+In file included from ./MyCode/mathematics.c:7:
+./MyCode/mathematics.h:16:27: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+void OrdinaryLeastSquares(uint16 data[], uint16 count, uint16 startX);
+                          ^~~~~~
+                          uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+In file included from ./MyCode/mathematics.c:7:
+./MyCode/mathematics.h:16:42: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+void OrdinaryLeastSquares(uint16 data[], uint16 count, uint16 startX);
+                                         ^~~~~~
+                                         uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+In file included from ./MyCode/mathematics.c:7:
+./MyCode/mathematics.h:16:56: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+void OrdinaryLeastSquares(uint16 data[], uint16 count, uint16 startX);
+                                                       ^~~~~~
+                                                       uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:19:19: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[])
+                  ^~~~~~
+                  uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:19:34: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[])
+                                 ^~~~~~
+                                 uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:19:48: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[])
+                                               ^~~~~~
+                                               uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:19:63: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[])
+                                                              ^~~~~~
+                                                              uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:22:5: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+    uint16 i;
+    ^~~~~~
+    uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:35:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+uint16 line[120] = {0};
+^~~~~~
+uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:43:27: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+void OrdinaryLeastSquares(uint16 data[], uint16 count, uint16 startX)
+                          ^~~~~~
+                          uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:43:42: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+void OrdinaryLeastSquares(uint16 data[], uint16 count, uint16 startX)
+                                         ^~~~~~
+                                         uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:43:56: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+void OrdinaryLeastSquares(uint16 data[], uint16 count, uint16 startX)
+                                                       ^~~~~~
+                                                       uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:45:5: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+    uint16 i = 0;
+    ^~~~~~
+    uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+17 errors generated.
+
+[2022-05-21 21:55:51]	compilation failed at : "c:\Car\mm32f3270\MyCode\mathematics.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0178e] in <6d8c0f91f6d94a3cb9e4240f591355c3>:0 
+---
+./MyCode/mathematics.c:19:19: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[])
+                  ^~~~~~
+                  uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:19:34: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[])
+                                 ^~~~~~
+                                 uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:19:48: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[])
+                                               ^~~~~~
+                                               uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:19:63: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+float GetVariance(uint16 data[], uint16 count, uint16 startX, uint16 target_line[])
+                                                              ^~~~~~
+                                                              uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:22:5: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+    uint16 i;
+    ^~~~~~
+    uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:35:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+uint16 line[120] = {0};
+^~~~~~
+uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:43:27: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+void OrdinaryLeastSquares(uint16 data[], uint16 count, uint16 startX)
+                          ^~~~~~
+                          uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:43:42: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+void OrdinaryLeastSquares(uint16 data[], uint16 count, uint16 startX)
+                                         ^~~~~~
+                                         uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:43:56: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+void OrdinaryLeastSquares(uint16 data[], uint16 count, uint16 startX)
+                                                       ^~~~~~
+                                                       uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+./MyCode/mathematics.c:45:5: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+    uint16 i = 0;
+    ^~~~~~
+    uint16_t
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdint.h:63:32: note: 'uint16_t' declared here
+typedef unsigned short     int uint16_t;
+                               ^
+10 errors generated.
+
+[2022-05-21 21:56:14]	[done]
+	build successfully !
+
+[2022-05-21 21:57:37]	[done]
+	build successfully !
+
+[2022-05-21 23:55:16]	[done]
+	build successfully !
+
+[2022-05-21 23:55:31]	compilation failed at : "c:\Car\mm32f3270\MyCode\ctrl.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0178e] in <6d8c0f91f6d94a3cb9e4240f591355c3>:0 
+---
+In file included from ./MyCode/ctrl.c:7:
+./MyCode/ctrl.h:63:50: error: expected ';' after top level declarator
+void IntToDouble(double val, const uint32_t *arr)
+                                                 ^
+                                                 ;
+1 error generated.
+
+[2022-05-21 23:55:36]	[done]
+	build successfully !
+
+[2022-05-21 23:58:20]	[done]
+	build successfully !
+
+[2022-05-21 23:59:12]	[done]
+	build successfully !
+

@@ -1,0 +1,1 @@
+-I.eide/deps -I.cmsis/dsp_lib -I.cmsis/include -IDrivers/inc -I3rdLib/zf_common -I3rdLib/zf_device -I3rdLib/zf_driver -IMyCode --cpu Cortex-M3 --li --pd "__MICROLIB SETA 1" -g -o ./build/Debug/Startup/startup_mm32f3277g.o --depend ./build/Debug/Startup/startup_mm32f3277g.d ./Startup/startup_mm32f3277g.s

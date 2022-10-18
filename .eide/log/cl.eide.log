@@ -1,0 +1,89 @@
+[2022/5/20 10:53:11 GMT+0800] : launched
+[Hidden] : 
+7-Zip (a) 19.00 (x86) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 5883559 bytes (5746 KiB)
+
+Extracting archive: C:\Users\baohan\.eide\bin\include\cmsis\dsp_lib.7z
+--
+Path = C:\Users\baohan\.eide\bin\include\cmsis\dsp_lib.7z
+Type = 7z
+Physical Size = 5883559
+Headers Size = 570
+Method = LZMA2:26
+Solid = +
+Blocks = 1
+
+Everything is Ok
+
+Folders: 2
+Files: 31
+Size:       106394228
+Compressed: 5883559
+
+[Hidden] : 
+7-Zip (a) 19.00 (x86) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 89222 bytes (88 KiB)
+
+Extracting archive: C:\Users\baohan\.eide\bin\include\cmsis\include.7z
+--
+Path = C:\Users\baohan\.eide\bin\include\cmsis\include.7z
+Type = 7z
+Physical Size = 89222
+Headers Size = 622
+Method = LZMA2:3m
+Solid = +
+Blocks = 1
+
+Everything is Ok
+
+Files: 33
+Size:       2721375
+Compressed: 89222
+
+[2022/5/23 21:6:0 GMT+0800] : launched
+[2022/5/25 18:37:9 GMT+0800] : launched
+
+
+[2022/5/25 18:39:5 GMT+0800] : launched
+
+
+[2022/5/28 16:42:14 GMT+0800] : launched
+[2022/5/31 20:17:21 GMT+0800] : launched
+
+
+[2022/5/31 20:19:14 GMT+0800] : launched
+
+
+[2022/5/31 20:21:20 GMT+0800] : launched
+[2022/5/31 20:55:27 GMT+0800] : launched
+[2022/5/31 20:58:51 GMT+0800] : launched
+
+
+[2022/5/31 21:0:56 GMT+0800] : launched
+
+
+[2022/5/31 21:8:4 GMT+0800] : launched
+
+
+[2022/5/31 21:12:21 GMT+0800] : launched
+
+
+[2022/5/31 21:13:12 GMT+0800] : launched
+[2022/6/7 11:16:44 GMT+0800] : launched
+
+
+[2022/6/9 21:29:53 GMT+0800] : launched
+[2022/9/9 20:19:43 GMT+0800] : launched
+[Hidden] : Failed to connect 'api-github.em-ide.com/repos/github0null/eide-templates/contents'
+Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:220:20)
+[Hidden] : Failed to connect 'api-github.em-ide.com/repos/github0null/eide-templates/contents'
+Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:220:20)
+[2022/9/9 21:5:3 GMT+0800] : launched
+
+

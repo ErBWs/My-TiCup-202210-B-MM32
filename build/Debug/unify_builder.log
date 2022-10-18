@@ -1,0 +1,1021 @@
+[2022-10-17 12:52:52]	[done]
+	build successfully !
+
+[2022-10-17 12:54:23]	[done]
+	build successfully !
+
+[2022-10-17 12:55:29]	[done]
+	build successfully !
+
+[2022-10-17 12:57:38]	[done]
+	build successfully !
+
+[2022-10-17 12:59:13]	[done]
+	build successfully !
+
+[2022-10-17 13:01:05]	[done]
+	build successfully !
+
+[2022-10-17 13:01:53]	[done]
+	build successfully !
+
+[2022-10-17 13:37:09]	[done]
+	build successfully !
+
+[2022-10-17 13:38:45]	[done]
+	build successfully !
+
+[2022-10-17 13:39:04]	[done]
+	build successfully !
+
+[2022-10-17 13:39:56]	[done]
+	build successfully !
+
+[2022-10-17 13:40:12]	[done]
+	build successfully !
+
+[2022-10-17 13:42:10]	[done]
+	build successfully !
+
+[2022-10-17 13:43:08]	[done]
+	build successfully !
+
+[2022-10-17 13:44:52]	[done]
+	build successfully !
+
+[2022-10-17 13:46:47]	[done]
+	build successfully !
+
+[2022-10-17 13:48:19]	[done]
+	build successfully !
+
+[2022-10-17 13:49:07]	[done]
+	build successfully !
+
+[2022-10-17 13:49:41]	[done]
+	build successfully !
+
+[2022-10-17 13:52:20]	[done]
+	build successfully !
+
+[2022-10-17 13:54:17]	[done]
+	build successfully !
+
+[2022-10-17 13:55:09]	[done]
+	build successfully !
+
+[2022-10-17 13:56:06]	[done]
+	build successfully !
+
+[2022-10-17 13:57:25]	[done]
+	build successfully !
+
+[2022-10-17 14:01:37]	[done]
+	build successfully !
+
+[2022-10-17 14:02:36]	[done]
+	build successfully !
+
+[2022-10-17 14:03:43]	[done]
+	build successfully !
+
+[2022-10-17 14:04:37]	[done]
+	build successfully !
+
+[2022-10-17 14:05:39]	[done]
+	build successfully !
+
+[2022-10-17 14:07:44]	[done]
+	build successfully !
+
+[2022-10-17 14:11:22]	[done]
+	build successfully !
+
+[2022-10-17 14:12:04]	[done]
+	build successfully !
+
+[2022-10-17 14:12:14]	[done]
+	build successfully !
+
+[2022-10-17 14:12:56]	[done]
+	build successfully !
+
+[2022-10-17 14:13:33]	[done]
+	build successfully !
+
+[2022-10-17 14:14:14]	[done]
+	build successfully !
+
+[2022-10-17 14:15:06]	[done]
+	build successfully !
+
+[2022-10-17 14:15:59]	[done]
+	build successfully !
+
+[2022-10-17 14:16:45]	[done]
+	build successfully !
+
+[2022-10-17 14:17:20]	[done]
+	build successfully !
+
+[2022-10-17 14:17:53]	[done]
+	build successfully !
+
+[2022-10-17 14:19:20]	compilation failed at : "c:\Car\mm32f3270\MyCode\ctrl.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./MyCode/ctrl.c:170:30: error: expected ';' after expression
+            spdParam[0] = 150
+                             ^
+                             ;
+1 error generated.
+
+[2022-10-17 14:19:26]	[done]
+	build successfully !
+
+[2022-10-17 14:20:30]	[done]
+	build successfully !
+
+[2022-10-17 14:21:01]	[done]
+	build successfully !
+
+[2022-10-17 14:21:58]	[done]
+	build successfully !
+
+[2022-10-17 14:23:15]	compilation failed at : "c:\Car\mm32f3270\UserApp\isr.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./UserApp/isr.c:131:25: error: expected ';' after expression
+        spdParam[3] = 15
+                        ^
+                        ;
+1 error generated.
+
+[2022-10-17 14:23:20]	[done]
+	build successfully !
+
+[2022-10-17 14:24:04]	[done]
+	build successfully !
+
+[2022-10-17 14:24:38]	[done]
+	build successfully !
+
+[2022-10-17 14:25:12]	[done]
+	build successfully !
+
+[2022-10-17 14:26:27]	[done]
+	build successfully !
+
+[2022-10-17 14:28:10]	[done]
+	build successfully !
+
+[2022-10-17 14:29:12]	[done]
+	build successfully !
+
+[2022-10-17 14:30:07]	[done]
+	build successfully !
+
+[2022-10-17 14:30:50]	[done]
+	build successfully !
+
+[2022-10-17 14:32:59]	[done]
+	build successfully !
+
+[2022-10-17 14:34:18]	[done]
+	build successfully !
+
+[2022-10-17 14:34:59]	[done]
+	build successfully !
+
+[2022-10-17 14:36:13]	[done]
+	build successfully !
+
+[2022-10-17 14:38:05]	[done]
+	build successfully !
+
+[2022-10-17 14:39:51]	[done]
+	build successfully !
+
+[2022-10-17 14:41:24]	[done]
+	build successfully !
+
+[2022-10-17 14:42:00]	[done]
+	build successfully !
+
+[2022-10-17 14:42:44]	[done]
+	build successfully !
+
+[2022-10-17 14:43:30]	[done]
+	build successfully !
+
+[2022-10-17 14:44:07]	[done]
+	build successfully !
+
+[2022-10-17 14:44:13]	[done]
+	build successfully !
+
+[2022-10-17 14:44:41]	[done]
+	build successfully !
+
+[2022-10-17 14:45:45]	[done]
+	build successfully !
+
+[2022-10-17 14:46:22]	[done]
+	build successfully !
+
+[2022-10-17 14:47:25]	[done]
+	build successfully !
+
+[2022-10-17 14:48:06]	[done]
+	build successfully !
+
+[2022-10-17 14:49:02]	[done]
+	build successfully !
+
+[2022-10-17 14:49:17]	[done]
+	build successfully !
+
+[2022-10-17 14:49:59]	[done]
+	build successfully !
+
+[2022-10-17 14:50:34]	[done]
+	build successfully !
+
+[2022-10-17 14:51:18]	[done]
+	build successfully !
+
+[2022-10-17 14:54:14]	[done]
+	build successfully !
+
+[2022-10-17 14:54:44]	[done]
+	build successfully !
+
+[2022-10-17 14:55:40]	[done]
+	build successfully !
+
+[2022-10-17 14:56:34]	[done]
+	build successfully !
+
+[2022-10-17 14:57:59]	[done]
+	build successfully !
+
+[2022-10-17 15:01:04]	[done]
+	build successfully !
+
+[2022-10-17 15:04:14]	[done]
+	build successfully !
+
+[2022-10-17 15:05:39]	[done]
+	build successfully !
+
+[2022-10-17 15:07:08]	[done]
+	build successfully !
+
+[2022-10-17 15:13:10]	[done]
+	build successfully !
+
+[2022-10-17 15:14:42]	[done]
+	build successfully !
+
+[2022-10-17 15:16:06]	[done]
+	build successfully !
+
+[2022-10-17 15:16:32]	[done]
+	build successfully !
+
+[2022-10-17 15:17:08]	[done]
+	build successfully !
+
+[2022-10-17 15:18:06]	[done]
+	build successfully !
+
+[2022-10-17 15:18:48]	[done]
+	build successfully !
+
+[2022-10-17 15:19:54]	[done]
+	build successfully !
+
+[2022-10-17 15:20:51]	[done]
+	build successfully !
+
+[2022-10-17 15:23:28]	[done]
+	build successfully !
+
+[2022-10-17 15:25:57]	[done]
+	build successfully !
+
+[2022-10-17 15:28:41]	[done]
+	build successfully !
+
+[2022-10-17 15:30:24]	[done]
+	build successfully !
+
+[2022-10-17 15:31:31]	[done]
+	build successfully !
+
+[2022-10-17 15:32:41]	[done]
+	build successfully !
+
+[2022-10-17 15:33:25]	[done]
+	build successfully !
+
+[2022-10-17 15:34:00]	[done]
+	build successfully !
+
+[2022-10-17 16:59:51]	[done]
+	build successfully !
+
+[2022-10-17 17:18:27]	[done]
+	build successfully !
+
+[2022-10-17 17:21:53]	[done]
+	build successfully !
+
+[2022-10-17 17:27:15]	[done]
+	build successfully !
+
+[2022-10-17 17:37:40]	[done]
+	build successfully !
+
+[2022-10-17 17:39:22]	[done]
+	build successfully !
+
+[2022-10-17 17:44:23]	[done]
+	build successfully !
+
+[2022-10-17 17:45:28]	[done]
+	build successfully !
+
+[2022-10-17 17:47:01]	[done]
+	build successfully !
+
+[2022-10-17 17:47:08]	[done]
+	build successfully !
+
+[2022-10-17 17:48:36]	[done]
+	build successfully !
+
+[2022-10-17 17:49:00]	[done]
+	build successfully !
+
+[2022-10-17 17:50:40]	[done]
+	build successfully !
+
+[2022-10-17 17:55:50]	[done]
+	build successfully !
+
+[2022-10-17 17:59:18]	[done]
+	build successfully !
+
+[2022-10-17 18:00:19]	[done]
+	build successfully !
+
+[2022-10-17 18:03:56]	[done]
+	build successfully !
+
+[2022-10-17 18:06:51]	compilation failed at : "c:\Car\mm32f3270\MyCode\ctrl.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./MyCode/ctrl.c:172:19: error: expected ';' after expression
+        angle = 13
+                  ^
+                  ;
+1 error generated.
+
+[2022-10-17 18:06:58]	[done]
+	build successfully !
+
+[2022-10-17 18:08:34]	[done]
+	build successfully !
+
+[2022-10-17 18:10:21]	[done]
+	build successfully !
+
+[2022-10-17 18:11:42]	[done]
+	build successfully !
+
+[2022-10-17 18:14:20]	[done]
+	build successfully !
+
+[2022-10-17 18:16:03]	[done]
+	build successfully !
+
+[2022-10-17 18:16:17]	[done]
+	build successfully !
+
+[2022-10-17 18:18:17]	[done]
+	build successfully !
+
+[2022-10-17 18:20:02]	[done]
+	build successfully !
+
+[2022-10-17 18:21:36]	[done]
+	build successfully !
+
+[2022-10-17 18:24:09]	[done]
+	build successfully !
+
+[2022-10-17 18:26:15]	[done]
+	build successfully !
+
+[2022-10-17 18:26:53]	[done]
+	build successfully !
+
+[2022-10-17 18:28:08]	[done]
+	build successfully !
+
+[2022-10-17 18:30:13]	[done]
+	build successfully !
+
+[2022-10-17 18:33:28]	[done]
+	build successfully !
+
+[2022-10-17 18:34:46]	[done]
+	build successfully !
+
+[2022-10-17 18:36:08]	[done]
+	build successfully !
+
+[2022-10-17 18:40:20]	[done]
+	build successfully !
+
+[2022-10-17 18:42:23]	[done]
+	build successfully !
+
+[2022-10-17 18:43:24]	[done]
+	build successfully !
+
+[2022-10-17 18:49:57]	[done]
+	build successfully !
+
+[2022-10-17 18:51:15]	[done]
+	build successfully !
+
+[2022-10-17 18:52:34]	[done]
+	build successfully !
+
+[2022-10-17 18:53:22]	[done]
+	build successfully !
+
+[2022-10-17 18:54:46]	[done]
+	build successfully !
+
+[2022-10-17 19:37:03]	[done]
+	build successfully !
+
+[2022-10-17 20:09:07]	[done]
+	build successfully !
+
+[2022-10-17 20:13:23]	[done]
+	build successfully !
+
+[2022-10-17 20:20:53]	[done]
+	build successfully !
+
+[2022-10-17 20:33:47]	[done]
+	build successfully !
+
+[2022-10-17 21:08:37]	[done]
+	build successfully !
+
+[2022-10-17 21:09:01]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol leftSpeed (referred from isr.o).
+Error: L6218E: Undefined symbol rightSpeed (referred from isr.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 2 error messages.
+
+
+[2022-10-17 21:09:23]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol leftSpeed (referred from isr.o).
+Error: L6218E: Undefined symbol rightSpeed (referred from isr.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 2 error messages.
+
+
+[2022-10-17 21:09:32]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol leftSpeed (referred from isr.o).
+Error: L6218E: Undefined symbol rightSpeed (referred from isr.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 2 error messages.
+
+
+[2022-10-17 21:10:20]	[done]
+	build successfully !
+
+[2022-10-17 21:11:37]	[done]
+	build successfully !
+
+[2022-10-17 21:17:38]	[done]
+	build successfully !
+
+[2022-10-17 21:22:22]	compilation failed at : "c:\Car\mm32f3270\MyCode\shanwai.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./MyCode/shanwai.c:16:37: error: too many arguments to function call, expected 2, have 3
+    uart_write_string(UART_1, cmdf, sizeof(cmdf));
+    ~~~~~~~~~~~~~~~~~               ^~~~~~~~~~~~
+3rdLib/zf_driver\zf_driver_uart.h:113:1: note: 'uart_write_string' declared here
+void    uart_write_string                   (uart_index_enum uartn, const char *str);
+^
+1 error generated.
+
+[2022-10-17 21:22:34]	[done]
+	build successfully !
+
+[2022-10-17 21:32:47]	[done]
+	build successfully !
+
+[2022-10-17 21:38:55]	[done]
+	build successfully !
+
+[2022-10-17 21:41:05]	[done]
+	build successfully !
+
+[2022-10-17 21:41:10]	[done]
+	build successfully !
+
+[2022-10-17 21:41:45]	[done]
+	build successfully !
+
+[2022-10-17 21:44:24]	[done]
+	build successfully !
+
+[2022-10-17 21:46:31]	[done]
+	build successfully !
+
+[2022-10-17 21:49:14]	[done]
+	build successfully !
+
+[2022-10-17 21:51:27]	[done]
+	build successfully !
+
+[2022-10-17 21:53:25]	[done]
+	build successfully !
+
+[2022-10-17 21:54:57]	[done]
+	build successfully !
+
+[2022-10-17 21:56:38]	[done]
+	build successfully !
+
+[2022-10-17 21:57:03]	[done]
+	build successfully !
+
+[2022-10-17 21:58:47]	[done]
+	build successfully !
+
+[2022-10-17 21:59:57]	[done]
+	build successfully !
+
+[2022-10-17 22:00:59]	[done]
+	build successfully !
+
+[2022-10-17 22:02:24]	[done]
+	build successfully !
+
+[2022-10-17 22:03:18]	[done]
+	build successfully !
+
+[2022-10-17 22:05:16]	[done]
+	build successfully !
+
+[2022-10-17 22:06:34]	[done]
+	build successfully !
+
+[2022-10-17 22:09:06]	[done]
+	build successfully !
+
+[2022-10-17 22:10:42]	[done]
+	build successfully !
+
+[2022-10-17 22:14:35]	[done]
+	build successfully !
+
+[2022-10-17 22:18:32]	[done]
+	build successfully !
+
+[2022-10-17 22:18:47]	[done]
+	build successfully !
+
+[2022-10-17 22:21:04]	[done]
+	build successfully !
+
+[2022-10-17 22:23:14]	[done]
+	build successfully !
+
+[2022-10-17 22:24:26]	[done]
+	build successfully !
+
+[2022-10-17 22:26:33]	[done]
+	build successfully !
+
+[2022-10-18 00:16:47]	[done]
+	build successfully !
+
+[2022-10-18 00:48:15]	[done]
+	build successfully !
+
+[2022-10-18 00:52:37]	[done]
+	build successfully !
+
+[2022-10-18 00:55:40]	[done]
+	build successfully !
+
+[2022-10-18 00:56:32]	[done]
+	build successfully !
+
+[2022-10-18 00:57:23]	[done]
+	build successfully !
+
+[2022-10-18 00:59:37]	[done]
+	build successfully !
+
+[2022-10-18 01:01:22]	[done]
+	build successfully !
+
+[2022-10-18 01:05:31]	[done]
+	build successfully !
+
+[2022-10-18 01:09:19]	[done]
+	build successfully !
+
+[2022-10-18 01:11:40]	[done]
+	build successfully !
+
+[2022-10-18 01:12:51]	[done]
+	build successfully !
+
+[2022-10-18 01:13:40]	[done]
+	build successfully !
+
+[2022-10-18 01:14:42]	[done]
+	build successfully !
+
+[2022-10-18 01:17:30]	[done]
+	build successfully !
+
+[2022-10-18 01:17:49]	[done]
+	build successfully !
+
+[2022-10-18 01:20:04]	[done]
+	build successfully !
+
+[2022-10-18 01:21:36]	[done]
+	build successfully !
+
+[2022-10-18 01:24:59]	[done]
+	build successfully !
+
+[2022-10-18 01:27:07]	[done]
+	build successfully !
+
+[2022-10-18 01:28:19]	[done]
+	build successfully !
+
+[2022-10-18 01:28:34]	[done]
+	build successfully !
+
+[2022-10-18 01:29:27]	[done]
+	build successfully !
+
+[2022-10-18 01:30:52]	[done]
+	build successfully !
+
+[2022-10-18 01:31:46]	[done]
+	build successfully !
+
+[2022-10-18 01:33:33]	[done]
+	build successfully !
+
+[2022-10-18 01:35:58]	[done]
+	build successfully !
+
+[2022-10-18 01:37:17]	[done]
+	build successfully !
+
+[2022-10-18 01:43:51]	[done]
+	build successfully !
+
+[2022-10-18 01:46:22]	[done]
+	build successfully !
+
+[2022-10-18 01:46:35]	[done]
+	build successfully !
+
+[2022-10-18 01:49:27]	[done]
+	build successfully !
+
+[2022-10-18 01:51:00]	[done]
+	build successfully !
+
+[2022-10-18 01:52:20]	[done]
+	build successfully !
+
+[2022-10-18 01:53:56]	[done]
+	build successfully !
+
+[2022-10-18 02:06:41]	[done]
+	build successfully !
+
+[2022-10-18 02:10:00]	[done]
+	build successfully !
+
+[2022-10-18 02:10:14]	[done]
+	build successfully !
+
+[2022-10-18 02:16:35]	[done]
+	build successfully !
+
+[2022-10-18 02:18:29]	[done]
+	build successfully !
+
+[2022-10-18 02:21:23]	[done]
+	build successfully !
+
+[2022-10-18 02:21:51]	[done]
+	build successfully !
+
+[2022-10-18 02:24:53]	[done]
+	build successfully !
+
+[2022-10-18 02:38:17]	[done]
+	build successfully !
+
+[2022-10-18 02:38:38]	[done]
+	build successfully !
+
+[2022-10-18 02:39:31]	[done]
+	build successfully !
+
+[2022-10-18 02:40:00]	[done]
+	build successfully !
+
+[2022-10-18 02:40:42]	[done]
+	build successfully !
+
+[2022-10-18 02:41:15]	[done]
+	build successfully !
+
+[2022-10-18 02:48:23]	[done]
+	build successfully !
+
+[2022-10-18 03:28:44]	[done]
+	build successfully !
+
+[2022-10-18 03:34:53]	[done]
+	build successfully !
+
+[2022-10-18 03:38:59]	[done]
+	build successfully !
+
+[2022-10-18 03:41:11]	[done]
+	build successfully !
+
+[2022-10-18 03:43:22]	[done]
+	build successfully !
+
+[2022-10-18 03:44:53]	[done]
+	build successfully !
+
+[2022-10-18 03:46:23]	[done]
+	build successfully !
+
+[2022-10-18 03:47:04]	[done]
+	build successfully !
+
+[2022-10-18 04:09:16]	[done]
+	build successfully !
+
+[2022-10-18 04:12:03]	[done]
+	build successfully !
+
+[2022-10-18 04:13:48]	[done]
+	build successfully !
+
+[2022-10-18 04:15:14]	[done]
+	build successfully !
+
+[2022-10-18 04:17:59]	[done]
+	build successfully !
+
+[2022-10-18 04:23:20]	[done]
+	build successfully !
+
+[2022-10-18 04:26:36]	[done]
+	build successfully !
+
+[2022-10-18 04:30:28]	[done]
+	build successfully !
+
+[2022-10-18 04:31:10]	[done]
+	build successfully !
+
+[2022-10-18 04:38:42]	[done]
+	build successfully !
+
+[2022-10-18 04:43:28]	[done]
+	build successfully !
+
+[2022-10-18 04:46:15]	[done]
+	build successfully !
+
+[2022-10-18 04:50:27]	[done]
+	build successfully !
+
+[2022-10-18 04:55:15]	[done]
+	build successfully !
+
+[2022-10-18 04:58:41]	[done]
+	build successfully !
+
+[2022-10-18 05:00:06]	[done]
+	build successfully !
+
+[2022-10-18 05:03:19]	[done]
+	build successfully !
+
+[2022-10-18 05:05:10]	[done]
+	build successfully !
+
+[2022-10-18 05:07:15]	[done]
+	build successfully !
+
+[2022-10-18 05:08:35]	[done]
+	build successfully !
+
+[2022-10-18 05:09:13]	[done]
+	build successfully !
+
+[2022-10-18 05:12:52]	compilation failed at : "c:\Car\mm32f3270\MyCode\ctrl.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./MyCode/ctrl.c:244:13: error: use of undeclared identifier 'cnt'
+        if (cnt < 400)
+            ^
+./MyCode/ctrl.c:246:13: error: use of undeclared identifier 'cnt'
+            cnt++;
+            ^
+./MyCode/ctrl.c:248:20: error: use of undeclared identifier 'cnt'
+        } else if (cnt < 690)
+                   ^
+./MyCode/ctrl.c:252:13: error: use of undeclared identifier 'cnt'
+            cnt++;
+            ^
+4 errors generated.
+
+[2022-10-18 05:13:24]	[done]
+	build successfully !
+
+[2022-10-18 05:18:17]	[done]
+	build successfully !
+
+[2022-10-18 05:18:38]	[done]
+	build successfully !
+
+[2022-10-18 05:20:27]	[done]
+	build successfully !
+
+[2022-10-18 05:21:12]	[done]
+	build successfully !
+
+[2022-10-18 05:23:03]	[done]
+	build successfully !
+
+[2022-10-18 08:06:15]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6200E: Symbol Menu_array multiply defined (by menu.o and ctrl.o).
+Error: L6200E: Symbol Menu_array multiply defined (by user_tft180.o and ctrl.o).
+Error: L6200E: Symbol Menu_array multiply defined (by isr.o and ctrl.o).
+Error: L6200E: Symbol Menu_array multiply defined (by main.o and ctrl.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 4 error messages.
+
+
+[2022-10-18 08:07:51]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6200E: Symbol Menu_array multiply defined (by menu.o and ctrl.o).
+Error: L6200E: Symbol Menu_array multiply defined (by user_tft180.o and ctrl.o).
+Error: L6200E: Symbol Menu_array multiply defined (by isr.o and ctrl.o).
+Error: L6200E: Symbol Menu_array multiply defined (by main.o and ctrl.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 4 error messages.
+
+
+[2022-10-18 08:09:02]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6200E: Symbol Menu_array multiply defined (by menu.o and ctrl.o).
+Error: L6200E: Symbol Menu_array multiply defined (by user_tft180.o and ctrl.o).
+Error: L6200E: Symbol Menu_array multiply defined (by isr.o and ctrl.o).
+Error: L6200E: Symbol Menu_array multiply defined (by main.o and ctrl.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 4 error messages.
+
+
+[2022-10-18 08:11:44]	[done]
+	build successfully !
+
+[2022-10-18 08:15:17]	[done]
+	build successfully !
+
+[2022-10-18 08:22:56]	[done]
+	build successfully !
+
+[2022-10-18 08:30:53]	[done]
+	build successfully !
+
+[2022-10-18 08:31:01]	[done]
+	build successfully !
+
+[2022-10-18 08:32:34]	[done]
+	build successfully !
+
+[2022-10-18 08:34:53]	[done]
+	build successfully !
+
+[2022-10-18 09:10:41]	[done]
+	build successfully !
+
+[2022-10-18 09:10:53]	[done]
+	build successfully !
+
+[2022-10-18 09:14:04]	[done]
+	build successfully !
+
+[2022-10-18 09:15:31]	[done]
+	build successfully !
+
+[2022-10-18 09:17:18]	[done]
+	build successfully !
+
+[2022-10-18 09:19:34]	[done]
+	build successfully !
+
+[2022-10-18 09:19:43]	[done]
+	build successfully !
+
+[2022-10-18 09:21:30]	[done]
+	build successfully !
+
+[2022-10-18 09:22:37]	[done]
+	build successfully !
+
+[2022-10-18 09:24:23]	[done]
+	build successfully !
+
+[2022-10-18 09:29:22]	[done]
+	build successfully !
+
+[2022-10-18 09:31:08]	[done]
+	build successfully !
+
+[2022-10-18 09:35:42]	[done]
+	build successfully !
+
+[2022-10-18 09:39:30]	[done]
+	build successfully !
+
+[2022-10-18 09:43:32]	[done]
+	build successfully !
+
+[2022-10-18 09:45:25]	[done]
+	build successfully !
+
+[2022-10-18 09:46:56]	[done]
+	build successfully !
+
+[2022-10-18 09:48:27]	[done]
+	build successfully !
+
+[2022-10-18 09:51:10]	[done]
+	build successfully !
+
+[2022-10-18 09:59:58]	[done]
+	build successfully !
+
+[2022-10-18 10:06:22]	[done]
+	build successfully !
+
+[2022-10-18 10:13:39]	[done]
+	build successfully !
+
+[2022-10-18 10:15:30]	[done]
+	build successfully !
+
+[2022-10-18 10:15:59]	[done]
+	build successfully !
+
+[2022-10-18 10:17:25]	[done]
+	build successfully !
+
